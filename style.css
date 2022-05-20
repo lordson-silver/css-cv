@@ -1,0 +1,40 @@
+.buttom-container{
+  background-color: red;
+  border: 10px solid black;
+  height: 200px;
+  margin-left: 500px;
+  width: 200px;
+
+}
+.middle-container{
+  background-color: green;
+  border: 20px solid black;
+  height: 200px;
+  margin-left: 260px;
+  width: 200px;
+}
+.top-container{
+  background-color: blue;
+  padding: 20px;
+}
+.button{
+  border: 100px 50px 100px;
+  border-style: none;
+  padding: 10px 40px;
+  border-radius: 15px;
+  color: white;
+  background-color: black;
+}
+.card{
+  background-color: grey;
+  height: 180px;
+  margin: 20px;
+  padding: 10px;
+  width: 180px;
+}
+.card h3{
+  text-align: center;
+}
+.card:hover{
+  background-color: green;
+}
