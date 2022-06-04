@@ -1,22 +1,123 @@
-.buttom-container{
-  background-color: red;
-  border: 10px solid black;
-  height: 200px;
-  margin-left: 500px;
-  width: 200px;
+/* #E3FCBF #B8F1B0 #00FFAB #14C38E  */
 
+body {
+  color: #14C38E;
+  font-family: serif;
+  margin: 0;
+  text-align: center;
 }
-.middle-container{
-  background-color: green;
-  border: 20px solid black;
-  height: 200px;
-  margin-left: 260px;
+h1 {
+  color: #14C38E;
+  font-family: cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+h2 {
+  color: #14C38E;
+  font-family: sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-top: 10px;
+}
+h3 {
+  color: #00FFAB;
+  font-family: sans-serif;
+}
+p {
+  line-height: 2;
+}
+hr {
+  border: dotted #E3FCBF 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+a {
+  color: #E3FCBF;
+  font-family: sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #14C38E;
+}
+.top-container {
+background-color: #B8F1B0;
+padding-top: 100px;
+position: relative;
+width: 100%;
+}
+.middle-container {
+  width: 50%;
+  margin: 100px auto;
+}
+.bottom-container {
+ background-color: #B8F1B0;
+ padding: 50px 0 20px;
+}
+
+.intro {
+  margin: auto;
+  width: 50%;
+}
+.skill-row {
+  margin: 100px auto;
+  text-align: left;
+}
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.btn {
+  background: #E3FCBF;
+  border-radius: 8px;
+  color: #14C38E;
+  font-size: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #B8F1B0;
+}
+.chillies-img {
+  float: right;
+  margin-left: 25px;
+}
+.computer-img {
+  float: left;
+  margin-right: 25px;
+}
+.copyright {
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+/* images */
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 3.1rem;
+}
+.bottom-cloud {
+  bottom: 18.75rem;
+  left: 300px;
+  position: absolute;
+}
+.profile img {
   width: 200px;
 }
-.top-container{
-  background-color: blue;
-  padding: 20px;
+.skills img {
+  width: 25%;
 }
+
+
+
+
+
+
+
+
 .button{
   border: 100px 50px 100px;
   border-style: none;
